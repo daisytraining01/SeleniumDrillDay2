@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 02 17:08:25 IST 2020</td>
+<td>Started on:</td><td>Wed Jun 03 00:34:06 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>94 seconds (94165 ms)</td>
+<tr><td>Total time:</td><td>346 seconds (346387 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,8 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Transfer amount between accounts</td>
-<td><div><pre>cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=83.0.4103.61)
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;MAVBCP27&apos;, ip: &apos;192.168.43.238&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SYEDNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 46d315e8403a793247331db5d4a827df
-*** Element info: {Using=xpath, value=//th[@class=&apos;sorting_asc&apos; and contains(.,&apos;Post Date&apos;)]}
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: RememberMe Function</td>
+<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: null
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -112,41 +104,13 @@ Session ID: 46d315e8403a793247331db5d4a827df
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=83.0.4103.61)
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;MAVBCP27&apos;, ip: &apos;192.168.43.238&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SYEDNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 46d315e8403a793247331db5d4a827df
-*** Element info: {Using=xpath, value=//th[@class=&apos;sorting_asc&apos; and contains(.,&apos;Post Date&apos;)]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at com.ether.steps.Syed_StepDefinition.user_verifies_that_the_last_transaction_something(Syed_StepDefinition.java:74)
-	at ?.Then User verifies that the last transaction &quot;1000&quot;(TrasferBetweenAccounts_Syed.feature:11)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1833973673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1833973673'><pre>cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=83.0.4103.61)
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;MAVBCP27&apos;, ip: &apos;192.168.43.238&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SYEDNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 46d315e8403a793247331db5d4a827df
-*** Element info: {Using=xpath, value=//th[@class=&apos;sorting_asc&apos; and contains(.,&apos;Post Date&apos;)]}
+Caused by: java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ether.steps.SampleTestLogin.verify_default_username_content_in_the_username_textbox(SampleTestLogin.java:91)
+	at ?.And verify default username content in the username textbox(RememberMe_vineeth.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace296223788", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace296223788'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: null
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -174,34 +138,72 @@ Session ID: 46d315e8403a793247331db5d4a827df
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=83.0.4103.61)
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;MAVBCP27&apos;, ip: &apos;192.168.43.238&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SYEDNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 46d315e8403a793247331db5d4a827df
-*** Element info: {Using=xpath, value=//th[@class=&apos;sorting_asc&apos; and contains(.,&apos;Post Date&apos;)]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at com.ether.steps.Syed_StepDefinition.user_verifies_that_the_last_transaction_something(Syed_StepDefinition.java:74)
-	at ?.Then User verifies that the last transaction &quot;1000&quot;(TrasferBetweenAccounts_Syed.feature:11)
+Caused by: java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.ether.steps.SampleTestLogin.verify_default_username_content_in_the_username_textbox(SampleTestLogin.java:91)
+	at ?.And verify default username content in the username textbox(RememberMe_vineeth.feature:13)
 </pre></div></td>
-<td>93</td>
-<td>com.ether.runner.CucumberTestRunner@595b007d</td></tr>
+<td>15</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: DeleteRecipientDetail</td>
+<td></td>
+<td>26</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
+<tr>
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Registration and Login</td>
+<td></td>
+<td>60</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
+<tr>
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Logout to bank URL</td>
+<td></td>
+<td>17</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
+<tr>
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: To Verify the Primary Account Pagination and Search</td>
+<td></td>
+<td>53</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
+<tr>
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Login to FishTech site and verify sort operation</td>
+<td></td>
+<td>19</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
+<tr>
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Test to Add/Edit Recipient(Benificiary)</td>
+<td></td>
+<td>47</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
+<tr>
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: User Profile Validation</td>
+<td></td>
+<td>25</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
+<tr>
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Transfer amount between accounts</td>
+<td></td>
+<td>25</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
+<tr>
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: HomePage Accounts View Link Check</td>
+<td></td>
+<td>32</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
+<tr>
+<td title='com.ether.runner.CucumberTestRunner.feature()'><b>feature</b><br>Test class: com.ether.runner.CucumberTestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Login with Multiple data</td>
+<td></td>
+<td>21</td>
+<td>com.ether.runner.CucumberTestRunner@149494d8</td></tr>
 </table><p>
 </body>
 </html>

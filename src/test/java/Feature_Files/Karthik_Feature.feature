@@ -1,5 +1,5 @@
-@Sample
-Feature:Login to bank URL
+@karthik
+Feature: Registration and Login
   
 	@Register
 	Scenario: Registration

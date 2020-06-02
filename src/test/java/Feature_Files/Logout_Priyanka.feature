@@ -1,4 +1,5 @@
-Feature:Logout to bank URL
+@Priyanka
+Feature: Logout to bank URL
 
  @logout
   Scenario: logout

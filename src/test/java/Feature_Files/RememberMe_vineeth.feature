@@ -1,11 +1,11 @@
-@Sample
-Feature: Login to bank URL
+@Vineeth
+Feature: RememberMe Function
   
 
   @Test
   Scenario: loginRememberMe
     Given Launch url
-    And login with userName and password 
+    And login with myuserName and mypassword 
     And enable rememberme option 
     Then verify the Home Page
     When user logout from the Home page

@@ -1,8 +1,8 @@
-@Sample
-Feature: ScenarioOutline
+@Vineeth
+Feature: Login with Multiple data
 
 @Test
-Scenario Outline: Login functionality
+Scenario Outline: Login with Multiple data
 
 Given Launch url 
 

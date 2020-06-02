@@ -1,53 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="94165" started-at="2020-06-02T11:38:25Z" finished-at="2020-06-02T11:39:59Z">
+  <suite name="Default suite" duration-ms="346387" started-at="2020-06-02T19:04:06Z" finished-at="2020-06-02T19:09:52Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@595b007d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="94165" started-at="2020-06-02T11:38:25Z" finished-at="2020-06-02T11:39:59Z">
+    <test name="Default test" duration-ms="346387" started-at="2020-06-02T19:04:06Z" finished-at="2020-06-02T19:09:52Z">
       <class name="com.ether.runner.CucumberTestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.ether.runner.CucumberTestRunner@595b007d]" name="setUpClass" is-config="true" duration-ms="322" started-at="2020-06-02T11:38:25Z" finished-at="2020-06-02T11:38:25Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="setUpClass" is-config="true" duration-ms="232" started-at="2020-06-02T19:04:06Z" finished-at="2020-06-02T19:04:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ether.runner.CucumberTestRunner@595b007d]" name="setup" is-config="true" duration-ms="214" started-at="2020-06-02T11:38:25Z" finished-at="2020-06-02T11:38:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="setup" is-config="true" duration-ms="128" started-at="2020-06-02T19:04:06Z" finished-at="2020-06-02T19:04:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@595b007d]" name="feature" duration-ms="93403" started-at="2020-06-02T11:38:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T11:39:59Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="26575" started-at="2020-06-02T19:04:06Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:04:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Transfer amount between accounts]]>
+                <![CDATA[DeleteRecipientDetail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="60459" started-at="2020-06-02T19:04:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:05:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registration and Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="17716" started-at="2020-06-02T19:05:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:05:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logout to bank URL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="53057" started-at="2020-06-02T19:05:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:06:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To Verify the Primary Account Pagination and Search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="19692" started-at="2020-06-02T19:06:44Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:07:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login to FishTech site and verify sort operation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="47700" started-at="2020-06-02T19:07:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:07:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test to Add/Edit Recipient(Benificiary)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="15481" started-at="2020-06-02T19:07:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:08:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RememberMe Function]]>
               </value>
             </param>
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=83.0.4103.61)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'MAVBCP27', ip: '192.168.43.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SYEDNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 46d315e8403a793247331db5d4a827df
-*** Element info: {Using=xpath, value=//th[@class='sorting_asc' and contains(.,'Post Date')]}]]>
+              <![CDATA[java.lang.AssertionError: null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=83.0.4103.61)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'MAVBCP27', ip: '192.168.43.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SYEDNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 46d315e8403a793247331db5d4a827df
-*** Element info: {Using=xpath, value=//th[@class='sorting_asc' and contains(.,'Post Date')]}
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: null
 at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -75,38 +125,62 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=83.0.4103.61)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'MAVBCP27', ip: '192.168.43.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SYEDNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 46d315e8403a793247331db5d4a827df
-*** Element info: {Using=xpath, value=//th[@class='sorting_asc' and contains(.,'Post Date')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-at com.ether.steps.Syed_StepDefinition.user_verifies_that_the_last_transaction_something(Syed_StepDefinition.java:74)
-at ✽.Then User verifies that the last transaction "1000"(TrasferBetweenAccounts_Syed.feature:11)
+Caused by: java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.ether.steps.SampleTestLogin.verify_default_username_content_in_the_username_textbox(SampleTestLogin.java:91)
+at ✽.And verify default username content in the username textbox(RememberMe_vineeth.feature:13)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.ether.runner.CucumberTestRunner@595b007d]" name="tearDownClass" is-config="true" duration-ms="105" started-at="2020-06-02T11:39:59Z" finished-at="2020-06-02T11:39:59Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="25296" started-at="2020-06-02T19:08:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:08:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User Profile Validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="25762" started-at="2020-06-02T19:08:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:08:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Transfer amount between accounts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="32655" started-at="2020-06-02T19:08:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HomePage Accounts View Link Check]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="feature" duration-ms="21344" started-at="2020-06-02T19:09:31Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-02T19:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login with Multiple data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.ether.runner.CucumberTestRunner@149494d8]" name="tearDownClass" is-config="true" duration-ms="141" started-at="2020-06-02T19:09:52Z" finished-at="2020-06-02T19:09:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -41,7 +41,7 @@ public class TestLogin {
 		//locator.signIn.click();
 		util.closeDBConnection();
 		
-		SeleniumDriver.clickOnTheElement(homepage.deposit);
+		//SeleniumDriver.clickOnTheElement(homepage.deposit);
 	}
 
 }

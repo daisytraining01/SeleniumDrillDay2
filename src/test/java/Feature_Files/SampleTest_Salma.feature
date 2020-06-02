@@ -1,8 +1,7 @@
-Feature: List of scenarios
+
+@Salma
+Feature: User Profile Validation
   
-
-
-
 @Profile
    Scenario: Validation of profile
      Given Launch url

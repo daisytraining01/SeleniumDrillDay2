@@ -14,6 +14,23 @@ public class SavingPageLocators {
 	// td should be checked
 	@FindBy(how = How.XPATH, using = "//table [@class=\"table table-bordered table-hover table-striped\"]/tbody/tr")
 	public WebElement LastSavingTransaction;
+	
+
+@FindBy(how = How.XPATH, using = "//*[@id=\"accountType\"]")
+public WebElement Savingoption;
+@FindBy(how = How.XPATH, using = "//*[@id=\"accountType\"]/option[2]")
+public WebElement PrimaryAcc;
+@FindBy(how = How.XPATH, using = "//*[@id=\"accountType\"]")
+public WebElement SavingAcc;
+@FindBy(how = How.XPATH, using = "//*[@id=\"accountType\"]/option[3]")
+public WebElement SavingAmount;
+@FindBy(how = How.XPATH, using = "/html/body/div[2]/div/div/form/button")
+public WebElement DepositClick;
+@FindBy(how = How.XPATH, using = "/html/body/div[2]/div[2]/div[1]/div[2]/a/div/span[1]")
+public WebElement SavingsBalanceClick;
+@FindBy(how = How.XPATH, using = "/html/body/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/h1/span")
+public WebElement SavingsBalanceDisplay;
+
 
 	public SavingPageLocators() {
 

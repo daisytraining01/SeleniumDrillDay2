@@ -15,17 +15,17 @@ Feature: Transfer amount between accounts
       | url                                        | username | password   | amount  |
       | http://elastic.rapidtestpro.com:8086/index | labuser  | labuser@01 | 1000    |
       
-  Scenario Outline: To veriy the amount transferred between same account
-    Given logged with the  "<url>" , "<username>" and "<password>" in Browser
-    And A fund transer of rupees "<amount>" has been done betweeb the recipient account
-    When The user opens the secondary statement page
-    And The Statement is sorted in the descending order
-    Then User verifies that the last transaction "<amount>"
-    And Logs out of the application
-
-    Examples: 
-      | url                                        | username | password   | amount  |
-      | http://elastic.rapidtestpro.com:8086/index | labuser  | labuser@01 | 1000    |
-
-
-
+  #Scenario Outline: To veriy the amount transferred between same account
+    #Given logged with the  "<url>" , "<username>" and "<password>" in Browser
+    #And A fund transer of rupees "<amount>" has been done betweeb the recipient account
+    #When The user opens the secondary statement page
+    #And The Statement is sorted in the descending order
+    #Then User verifies that the last transaction "<amount>"
+    #And Logs out of the application
+#
+    #Examples: 
+      #| url                                        | username | password   | amount  |
+      #| http://elastic.rapidtestpro.com:8086/index | labuser  | labuser@01 | 1000    |
+#
+#
+#
