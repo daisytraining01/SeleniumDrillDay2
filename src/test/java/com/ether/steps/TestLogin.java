@@ -11,7 +11,7 @@ import com.ether.pages.locators.LoginPageLocators;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 
-public class SampleTestLogin {
+public class TestLogin {
 	TestUtil util = new TestUtil();
 	LoginPageLocators locator = new LoginPageLocators();
 	HomePageLocators homepage = new HomePageLocators();
