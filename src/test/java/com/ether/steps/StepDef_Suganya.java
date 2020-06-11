@@ -62,6 +62,7 @@ public void enter_all_the_inputs() throws Throwable {
 	String desc = null;
 	
 	util.setUpDBConnection();
+		
 	String query="Select * from Recipient_Table Where id =1";
 	ResultSet result=util.getDataFromDB(query);
 	while (result.next()) {

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import com.ether.base.SeleniumDriver;
 
@@ -16,8 +17,8 @@ public class SavingPageLocators {
 	public WebElement LastSavingTransaction;
 	
 
-@FindBy(how = How.XPATH, using = "//*[@id=\"accountType\"]")
-public WebElement Savingoption;
+@FindBy(how = How.XPATH, using = "//*[@id='accountType']")
+public Select Savingoption;
 @FindBy(how = How.XPATH, using = "//*[@id=\"accountType\"]/option[2]")
 public WebElement PrimaryAcc;
 @FindBy(how = How.XPATH, using = "//*[@id=\"accountType\"]")

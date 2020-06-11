@@ -1,11 +1,13 @@
-
 @Salma
-Feature: User Profile Validation
+Feature: List of scenarios
   
-@Profile
+
+
+
+@Test
    Scenario: Validation of profile
-     Given Launch url
-    And login with userName and password
+     Given Launch the url
+    And login with userName1 and password1
     When Click on me
     When you are in home page
     Then Click on profile
@@ -14,6 +16,10 @@ Feature: User Profile Validation
     And Validate phone number
     And Validate email
     And validate userName
+    
+    
+  
+    
     
    
 

@@ -32,7 +32,8 @@ public class SampleTestLogin_hari
 	public void ClickDepositSelectSaving() throws Exception
 	{
 		Homelocator.deposit.click();
-		Savinglocator.SavingAcc.click();
+		Savinglocator.Savingoption.selectByVisibleText("Savings");
+		Thread.sleep(30000);
 //		WebElement  s = Savinglocator.Savingoption;
 //		Select selectaccount = new Select(Savinglocator.Savingoption);
 //        selectaccount.selectByVisibleText("Savings");

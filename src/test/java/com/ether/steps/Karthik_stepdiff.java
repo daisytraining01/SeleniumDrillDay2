@@ -2,8 +2,11 @@ package com.ether.steps;
 
 import java.util.Random;
 
+import org.testng.Assert;
+
 import com.ether.base.SeleniumDriver;
 import com.ether.base.TestUtil;
+import com.ether.pages.locators.HomePageLocators;
 import com.ether.pages.locators.LoginPageLocators;
 import com.ether.pages.locators.RegisterPageLocators;
 
@@ -17,6 +20,7 @@ public class Karthik_stepdiff {
 	TestUtil util = new TestUtil();
 	LoginPageLocators lpl=new LoginPageLocators();
 	RegisterPageLocators rpl = new RegisterPageLocators();
+	HomePageLocators hpl=new HomePageLocators();
 	@Given("^Launching application url on the Browser$")
 	public void launching_application_url_on_the_Browser() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
@@ -74,6 +78,7 @@ public class Karthik_stepdiff {
 	public void click_sign_in_button_for_succesfull_login() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		SeleniumDriver.clickOnTheElement(lpl.signIn);
+		Assert.assertEquals(hpl.homeButton.isDisplayed(), hpl.homeButton.isDisplayed());
 	    
 	}
 

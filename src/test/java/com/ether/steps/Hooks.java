@@ -28,6 +28,12 @@ public class Hooks {
              scenario.embed(screenshotBytes, "image/png");
           
          }
+    	 else
+    	 {
+    		  byte[] screenshotBytes = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+              scenario.embed(screenshotBytes, "image/png");
+  
+    	 }
     SeleniumDriver.tearDown();
     }
 }
